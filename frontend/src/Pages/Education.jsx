@@ -10,7 +10,7 @@ const Education = () => {
       <div class="absolute bottom-0 left-[-20%] right-0 top-[-10%] h-[500px] w-[500px] rounded-full bg-[radial-gradient(circle_farthest-side,rgba(255,0,182,.15),rgba(255,255,255,0))]"></div>
       <div class="absolute bottom-0 right-[-20%] top-[-10%] h-[500px] w-[500px] rounded-full bg-[radial-gradient(circle_farthest-side,rgba(255,0,182,.15),rgba(255,255,255,0))]">
       </div>
-     <p className='text-3xl font-bold inline-flex animate-text-gradient bg-gradient-to-r from-[#b2a8fd] via-[#8678f9] to-[#c7d2fe] bg-[200%_auto] bg-clip-text text-transparent md:mx-40'>Education</p>
+     <p className='text-3xl font-bold md:text-left px-5 animate-text-gradient bg-gradient-to-r from-[#b2a8fd] via-[#8678f9] to-[#c7d2fe] bg-[200%_auto] bg-clip-text text-transparent md:mx-40'>Education</p>
     <div className='my-16 p-7 w-full max-w-5xl mx-auto flex flex-col gap-7 text-white text-black bg-gradient-to-br from-[#040005] via-[#0a0011] to-[#11041b] text-xs md:text-base'>
 
      {/* first section */}

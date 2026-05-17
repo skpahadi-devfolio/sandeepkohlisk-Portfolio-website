@@ -44,7 +44,7 @@ const Projects = () => {
       <div class="absolute bottom-0 right-[-20%] top-[-10%] h-[500px] w-[500px] rounded-full bg-[radial-gradient(circle_farthest-side,rgba(255,0,182,.15),rgba(255,255,255,0))]">
       </div>
       
-<p className='inline-flex animate-text-gradient bg-gradient-to-r from-[#b2a8fd] via-[#8678f9] to-[#c7d2fe] bg-[200%_auto] bg-clip-text text-transparent font-bold text-4xl p-5 md:mx-36'>Projects</p>
+<p className='md:text-left px-5 animate-text-gradient bg-gradient-to-r from-[#b2a8fd] via-[#8678f9] to-[#c7d2fe] bg-[200%_auto] bg-clip-text text-transparent font-bold text-4xl p-5 md:mx-36'>Projects</p>
       {projects.map((item,index)=>{
         return (
           <ScaleIn>
