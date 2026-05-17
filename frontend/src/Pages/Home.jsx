@@ -27,7 +27,7 @@ const Home = () => {
 
         {/* image section */}
        <Fadedown>
-        <div className='flex opacity-70 border-white h-[105vh] w-[93vw] md:h-[60vh] md:w-[28vw] overflow-hidden rounded-full'>
+        <div className='flex opacity-70 border-white h-[320px] w-[320px] md:h-[60vh] md:w-[28vw] overflow-hidden rounded-full'>
          <img className='object-cover w-full h-full' src={DeveloperImg} alt="" />
        </div>
        </Fadedown>
