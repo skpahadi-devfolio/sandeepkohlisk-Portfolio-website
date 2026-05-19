@@ -51,10 +51,10 @@ const Projects = () => {
             <div key={index}className='my-12 p-5 w-full max-w-5xl mx-auto flex flex-col gap-3 text-white bg-gradient-to-br from-[#040005] via-[#0a0011] to-[#11041b] text-xs md:text-base'>
             <p>{item.title}</p>
             <p>{item.desc}</p>
-            <div className='flex gap-4'>
+            <div className='flex gap-4 flex-wrap'>
              {item.end.map((tech, index) => {
               return (
-                 <p key={index} className='bg-gray-950  px-4 py-2 border border-gray-900'>{tech}</p>
+                 <p key={index} className='bg-gray-950 px-4 py-2 border border-gray-900'>{tech}</p>
               )
              })}
             </div>
