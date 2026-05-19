@@ -16,7 +16,12 @@ const Contact = () => {
 
   //handleclick function
   const handleClick = async(e) => {
-    e.preventDefault()
+    e.preventDefault();
+
+    if(!name || !email || !message){
+      toast.error("All Fields are Required");
+      return;
+    }
     try {
       const result = await contactMessage(form)
       if(!result.success){

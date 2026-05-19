@@ -30,7 +30,6 @@ const Education = () => {
       <p>Higher Secondary Education (12th)</p>
      <p>Sahil Public School</p>
      <p>CBSE Board | 2022 | 60%</p>
-     <p>Completed higher secondary education with a focus on academic fundamentals and technical learning while developing interest in computers and web technologies.</p>
      </section>
      </Faderight>
 
@@ -41,7 +40,6 @@ const Education = () => {
       <p>Secondary Education (10th)</p>
      <p>Sahil Public School</p>
      <p>CBSE Board | 2020 | 48%</p>
-     <p>Completed secondary education and built the foundation for further studies and technical growth.</p>
      </section>
      </Fadeleft>
     </div>
