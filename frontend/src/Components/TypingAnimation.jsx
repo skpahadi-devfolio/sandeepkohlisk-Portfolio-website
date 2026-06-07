@@ -10,7 +10,7 @@ const TypingAnimation = () => {
         1000,                  // Waits 1s
         'Full Stack Developer', // Full stack Developer'
         2000,
-        'React Native Mobile App Developer',
+        'React Native App Developer',
         2000,                  //Frontend Developer
         'Software Developer',    //software developer
         2000,
