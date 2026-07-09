@@ -36,11 +36,11 @@ const Home = () => {
 
       {/* adding whole component in single page */}
       <About/>
-      <Contact/>
       <Skills/>
       <Projects/>              
       <Education/>
       <Resume/>
+      <Contact/>
       </div>
     </>
   )

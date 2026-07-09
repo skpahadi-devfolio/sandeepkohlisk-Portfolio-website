@@ -12,11 +12,11 @@ const Navbar = () => {
       <nav className='hidden md:flex gap-7'>
         <NavLink className={(e) => {return e.isActive?"red":""}} to={"/"}>Home</NavLink>
         <NavLink className={(e) => {return e.isActive?"red":""}} to={"/about"}>About</NavLink>
-        <NavLink className={(e) => {return e.isActive?"red":""}} to={"/contact"}>Contact</NavLink>
         <NavLink className={(e) => {return e.isActive?"red":""}} to={"/projects"}>Projects</NavLink>
         <NavLink className={(e) => {return e.isActive?"red":""}} to={"/skills"}>Skills</NavLink>
         <NavLink className={(e) => {return e.isActive?"red":""}} to={"/education"}>Education</NavLink>
         <NavLink className={(e) => {return e.isActive?"red":""}} to={"/resume"}>Resume</NavLink>
+        <NavLink className={(e) => {return e.isActive?"red":""}} to={"/contact"}>Contact</NavLink>
       </nav>
 
       {/* Mobile hamburger */}
