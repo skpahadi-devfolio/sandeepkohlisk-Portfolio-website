@@ -24,10 +24,6 @@ function App() {
       element: <><About/></>
     },
     {
-      path: "/contact",
-      element: <><Contact/></>
-    },
-    {
       path: "/education",
       element: <><Education/></>
     },
@@ -42,6 +38,10 @@ function App() {
     {
       path: "/resume",
       element: <><Resume/></>
+    },
+    {
+      path: "/contact",
+      element: <><Contact/></>
     }
       ]
     }

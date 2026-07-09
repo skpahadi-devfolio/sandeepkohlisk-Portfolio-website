@@ -29,11 +29,11 @@ const Navbar = () => {
         <div className='absolute top-20 left-0 w-[65vw] flex flex-col gap-6 px-6 py-6 md:hidden bg-gray-700 z-50'>
         <NavLink className={(e) => {return e.isActive?"red":""}} to={"/"}>Home</NavLink>
           <NavLink className={(e) => {return e.isActive?"red":""}} to={"/about"}>About</NavLink>
-          <NavLink className={(e) => {return e.isActive?"red":""}} to={"/contact"}>Contact</NavLink>
           <NavLink className={(e) => {return e.isActive?"red":""}} to={"/projects"}>Projects</NavLink>
           <NavLink className={(e) => {return e.isActive?"red":""}} to={"/skills"}>Skills</NavLink>
           <NavLink className={(e) => {return e.isActive?"red":""}} to={"/education"}>Education</NavLink>
-          <NavLink className={(e) => {return e.isActive?"red":""}} to={"/resume"}>Resume</NavLink></div>
+          <NavLink className={(e) => {return e.isActive?"red":""}} to={"/resume"}>Resume</NavLink>
+          <NavLink className={(e) => {return e.isActive?"red":""}} to={"/contact"}>Contact</NavLink></div>
       )}
     </div>
 
