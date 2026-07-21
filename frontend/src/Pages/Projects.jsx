@@ -13,10 +13,22 @@ const Projects = () => {
             Link: "https://sandeepkohlisk-portfolio-website.netlify.app/"
         },
         {
-            title: "Number Guessing Game",
-            desc: "Developed an interactive number guessing game using HTML, CSS, and JavaScript Implemented game logic, user input handling, and result feedback Improved JavaScript fundamentals and DOM manipulation skills",
-            end: ["HTML", "CSS", "JavaScript"],
-            Link: "https://skpahadi-devfolio.github.io/number_guessing_first_game/"
+          title: "Mahima Tour & Travel App",
+          desc: "Developed a full-stack Tours & Travels web application using the MERN stack with JWT Authentication and Role-Based Access Control (RBAC). Implemented separate User and Admin dashboards where users can create and manage profiles, book tours, and view their booking history, while admins can manage all bookings, maintain profiles, and accept or reject booking requests with complete booking status tracking. Built secure REST APIs, protected routes, and CRUD operations for efficient tour and booking management.",
+          end: ["MongoDB", "Express.js", "React.js", "Node.js", "RBAC", "JWT"],
+          Link: "https://mahimatourandtravels.netlify.app/"
+        },
+        {
+            title: "Note Manager App",
+            desc: "Built a full-stack note management application using the MERN stack Implemented JWT-based authentication for secure user access Developed CRUD functionality for creating, updating, and deleting notes Strengthened backend API development and database handling skills",
+            end: ["MongoDB", "Express.js", "React.js", "Node.js", "JWT"],
+            Link: "https://mynotemanager-skweb.netlify.app/"
+        },
+        {
+          title: "Mobile Blog Application",
+          desc: "Developed a full-stack mobile blog application using React Native, Express.js, Node.js, and PostgreSQL. Implemented JWT Authentication for secure user registration and login. Users can create, view, and manage blog posts through a responsive mobile interface. Built secure REST APIs, integrated PostgreSQL for data management, and implemented CRUD operations for efficient blog management.",
+          end: ["React Native", "Express.js", "Node.js", "PostgreSQL", "JWT"],
+          Link: "https://expo.dev/accounts/sandeepkohlisk9593/projects/sk-blog-app/builds/7848d3d0-7721-4061-92b0-691c0c65870d"
         },
         {
             title: "URL Shortener App",
@@ -29,12 +41,6 @@ const Projects = () => {
             desc: "Designed and developed a responsive restaurant website using HTML, CSS, and JavaScript Created an interactive UI with features like menu display, image gallery, and booking section Built using AI-assisted prompt engineering to enhance design and development speed",
             end: ["HTML", "CSS", "JavaScript"],
             Link: "https://skpahadi-devfolio.github.io/KJ-SK-Pahadi-Rasoi/"
-        },
-        {
-            title: "Note Manager App",
-            desc: "Built a full-stack note management application using the MERN stack Implemented JWT-based authentication for secure user access Developed CRUD functionality for creating, updating, and deleting notes Strengthened backend API development and database handling skills",
-            end: ["MongoDB", "Express.js", "React.js", "Node.js", "JWT"],
-            Link: "https://mynotemanager-skweb.netlify.app/"
         }
   ])
   return (

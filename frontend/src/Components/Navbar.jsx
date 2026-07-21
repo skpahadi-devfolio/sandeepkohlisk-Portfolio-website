@@ -7,8 +7,8 @@ const Navbar = () => {
 
   const [menuOpen, setmenuOpen] = useState(false)
   return (
-    <div className='relative flex justify-between items-center p-4 bg-violet-950'>
-        <div className='text-3xl font-bold pacifico'>Sandeep Kohli</div>
+    <div className='relative flex justify-between items-center p-4 md:p-8 bg-violet-950'>
+        <div className='text-2xl font-bold pacifico'>Sandeep Kohli</div>
       <nav className='hidden md:flex gap-7'>
         <NavLink className={(e) => {return e.isActive?"red":""}} to={"/"}>Home</NavLink>
         <NavLink className={(e) => {return e.isActive?"red":""}} to={"/about"}>About</NavLink>
@@ -26,7 +26,7 @@ const Navbar = () => {
 
        {/* mobile menu */}
       {menuOpen && (
-        <div className='absolute top-20 left-0 w-[65vw] flex flex-col gap-6 px-6 py-6 md:hidden bg-gray-700 z-50'>
+        <div className='absolute top-17 left-0 w-[65vw] flex flex-col gap-6 px-6 py-6 md:hidden bg-gradient-to-r from-slate-950 to-gray-900 z-50 text-center'>
         <NavLink className={(e) => {return e.isActive?"red":""}} to={"/"}>Home</NavLink>
           <NavLink className={(e) => {return e.isActive?"red":""}} to={"/about"}>About</NavLink>
           <NavLink className={(e) => {return e.isActive?"red":""}} to={"/projects"}>Projects</NavLink>

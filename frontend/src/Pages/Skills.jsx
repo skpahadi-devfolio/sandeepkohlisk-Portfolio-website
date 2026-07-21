@@ -8,15 +8,19 @@ const Skills = () => {
   const [Techcards, setTechcards] = useState([
     {
       title: "Frontend Development",
-      element: ["React.js","Next.js","Javascript(ES6+)","HTML5","CCS3","Tailwind CSS","Responsive Web Design"]
+      element: ["React.js", "Next.js", "Tailwind CSS", "React Native", "Responsive Web Design"]
     },
     {
       title: "Backend Development",
-      element: ["Node.js","Express.js","REST APIs","Authentication","Server-Side Development"]
+      element: ["Node.js","Express.js","REST APIs","Authentication", "Role Based Access"]
     },
     {
       title: "Database & other Tools",
       element: ["MongoDB", "PostgreSQL","Git","GitHub","Postman"]
+    },
+    {
+      title: "Cloud and Deployment",
+      element: ["Netlify", "Vercel", "Render", "MongoAtlas", "Neondb"]
     },
     {
       title: "Soft Skills",
@@ -39,8 +43,8 @@ const Skills = () => {
         {Techcards.map((item, index)=>{
           return (
               <Fadeup>
-            <div key={index} className="m-2 text-black bg-gradient-to-br from-[#040005] via-[#0a0011] to-[#11041b] flex flex-col items-center gap-8 pb-5">
-                <div className="techtitle bg-pink-900 w-full text-center">{item.title}</div>
+            <div key={index} className="m-2 text-black bg-gradient-to-br from-[#040005] via-[#0a0011] to-[#11041b] flex flex-col items-center gap-8 pb-5 rounded-2xl p-2">
+                <div className="techtitle rounded-xl p-1 bg-gradient-to-r from-pink-900 to-blue-900 w-full text-center">{item.title}</div>
               <div className="techelement flex flex-col text-purple-900">{item.element.map((tech,i)=>{
                 return(
                   <p key={i}>{tech}</p>

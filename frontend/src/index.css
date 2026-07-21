@@ -9,7 +9,11 @@ body{
      font-family: "Pacifico", sans-serif;
 }
 .red{
-    color: rgb(38, 0, 255);
+    color: rgb(170, 13, 47);
+}
+.red:hover{
+    transform: translateY(-12px);
+    transition: all 0.7s ease-in-out;
 }
 
 

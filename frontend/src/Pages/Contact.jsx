@@ -59,12 +59,12 @@ const Contact = () => {
 
         <Faderight>
           <div className="md:left-16 md:absolute text-white md:my-20 my-12 md:top-12 flex gap-8 flex-col">
-       <div className="title-left text-center md:text-2xl">
+       <div className="title-left text-center md:text-2xl ">
          <p>A simple title prefix</p>
         <p className='md:text-4xl text-2xl'>SEND ME A MESSAGE</p>
        </div>
 
-       <div className="address text-center md:text-xl">
+       <div className="address text-center md:text-xl text-xs">
         <p>Getting in touch is easy!</p>
         <p>RC-881, Vandana Enclave Khora, Shital Vihar</p>
         <p> Noida 201301</p>
@@ -77,7 +77,7 @@ const Contact = () => {
 
       <div className='md:absolute md:right-28 md:top-12'>
       <Fadeleft>
-      <form className='text-black bg-gradient-to-br from-[#040005] via-[#0a0011] to-[#11041b] w-[95vw] md:max-w-xl md:p-10 p-6 rounded-xl mx-auto my-10 text-xs md:text-base shadow-lg shadow-blue-900' action="">
+      <form className='text-black bg-gradient-to-br from-[#040005] via-[#0a0011] to-[#11041b] w-[95vw] md:max-w-xl md:p-10 p-4 rounded-xl mx-auto my-10 text-xs md:text-base shadow-lg shadow-blue-900' action="">
         <div className='flex flex-col justify-center items-center gap-5'>
           <input name='name' value={form.name} onChange={handleChange} className='bg-white p-4 rounded-md w-full max-w-lg' type="text" placeholder='Enter your Name' required />
           <input name='email' value={form.email} onChange={handleChange} className='bg-white p-4 rounded-md w-full max-w-lg' type="email" placeholder='Enter your Email' required />
