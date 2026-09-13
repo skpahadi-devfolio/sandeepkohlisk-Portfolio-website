@@ -1,4 +1,3 @@
-import React from 'react'
 import { useState } from 'react'
 import ScaleIn from '../Animations/ScaleIn'
 
@@ -11,6 +10,12 @@ const Projects = () => {
       desc: "Built a modern, responsive portfolio using React and Tailwind CSS Implemented reusable components, clean UI, and smooth layout Showcases skills, projects, and contact information Focused on performance and mobile responsiveness",
       end: ["React", "Tailwind CSS", "Express.js"],
       Link: "https://sandeepkohlisk-portfolio-website.netlify.app/"
+    },
+    {
+      title: "KJ&SK Leave Management System",
+      desc: "Developed a full-stack Employee Leave Management System using the MERN stack with PostgreSQL, JWT Authentication, and Role-Based Access Control (RBAC). Implemented separate Employee and Manager dashboards where employees can create and manage profiles, apply for leaves, update or delete leave requests, while managers can manage employee leave requests, accept or reject leaves, and maintain leave history with complete status tracking. Built secure REST APIs, protected routes, middleware-based authorization, CRUD operations, and automated email notifications using Nodemailer for leave requests and approval or rejection updates.",
+      end: ["PostgreSQL", "Express.js", "React.js", "Node.js", "JWT", "RBAC", "Nodemailer"],
+      Link: "https://kj-sk-leave-management-system.netlify.app/"
     },
     {
       title: "Mahima Tour & Travel App",
