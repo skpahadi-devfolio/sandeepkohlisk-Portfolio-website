@@ -13,7 +13,6 @@ export const contactMessage = async (req, res) => {
             })
         }
         const messge = await Contact.create({ name, email, message })
-
         await transporter.sendMail({
             from: process.env.EMAIL_USER,
             to: process.env.EMAIL_USER,
@@ -32,6 +31,7 @@ Message:${message}`,
             messge
         })
     } catch (error) {
+        console.log(error);
         return res.status(500).json({
             success: false,
             message: "Message not sent API Failed"

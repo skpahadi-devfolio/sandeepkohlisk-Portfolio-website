@@ -1,16 +1,16 @@
 import express from "express"
+import "dotenv/config";
 import cors from "cors";
 import contactroutes from "./routes/contactroutes.js"
 import connectDB from "./config/db.js";
-import dotenv from "dotenv";
 const app = express()
 const port = process.env.port || 3000
 
-//env varaible secret
-dotenv.config();
 
 app.use(express.json());
-app.use(cors());
+
+const allowOrigins = ["http://localhost:5173", "https://sandeepkohlisk-portfolio-website.netlify.app"]
+app.use(cors({origin: allowOrigins, methods: ["GET", "POST", "PUT", "DELETE"], allowedHeaders: ["Content-Type", "Authorization"], credentials: true}));   //Allow diffenet orgins
 
 connectDB();
 

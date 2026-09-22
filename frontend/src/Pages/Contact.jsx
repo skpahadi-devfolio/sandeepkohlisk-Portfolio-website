@@ -22,13 +22,12 @@ const Contact = () => {
       return;
     }
     try {
-      const result = await contactMessage(form)
+      const result = await contactMessage(form);
       if(!result.success){
         toast.error(result.message);
         return;
       }
       toast.success(result.message);
-      console.log("Form Data:", form);
       setform({name: "", email: "", message: ""});
     } catch (error) {
       toast.error(error.message);
@@ -76,12 +75,12 @@ const Contact = () => {
 
       <div className='md:absolute md:right-28 md:top-12'>
       <Fadeleft>
-      <form className='text-black bg-gradient-to-br from-[#040005] via-[#0a0011] to-[#11041b] w-[95vw] md:max-w-xl md:p-10 p-5 rounded-xl mx-auto my-10 text-xs md:text-base shadow-lg shadow-blue-900' action="">
+      <form onSubmit={handleClick} className='text-black bg-gradient-to-br from-[#040005] via-[#0a0011] to-[#11041b] w-[95vw] md:max-w-xl md:p-10 p-5 rounded-xl mx-auto my-10 text-xs md:text-base shadow-lg shadow-blue-900' action="">
         <div className='flex flex-col justify-center items-center gap-5'>
           <input name='name' value={form.name} onChange={handleChange} className='bg-white p-4 rounded-md w-full max-w-lg' type="text" placeholder='Enter your Name' required />
           <input name='email' value={form.email} onChange={handleChange} className='bg-white p-4 rounded-md w-full max-w-lg' type="email" placeholder='Enter your Email' required />
-          <textarea className='bg-white p-4 rounded-md w-full max-w-lg' name="message" value={form.message} onChange={handleChange} placeholder='Enter Message'></textarea>
-          <button onClick={handleClick} className='bg-orange-500 p-4 rounded-md w-full max-w-lg' type="submit">Send Message</button>
+          <textarea className='bg-white p-4 rounded-md w-full max-w-lg' name="message" value={form.message} onChange={handleChange} placeholder='Enter Message' required></textarea>
+          <button className='bg-orange-500 p-4 rounded-md w-full max-w-lg' type="submit">Send Message</button>
         </div>
       </form>
       </Fadeleft>
