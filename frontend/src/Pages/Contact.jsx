@@ -17,7 +17,6 @@ const Contact = () => {
   //handleclick function
   const handleClick = async(e) => {
     e.preventDefault();
-
     if(!form.name || !form.email || !form.message){
       toast.error("All Fields are Required");
       return;
@@ -29,6 +28,7 @@ const Contact = () => {
         return;
       }
       toast.success(result.message);
+      console.log("Form Data:", form);
       setform({name: "", email: "", message: ""});
     } catch (error) {
       toast.error(error.message);

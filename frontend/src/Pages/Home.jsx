@@ -19,7 +19,7 @@ const Home = () => {
       <div className='flex md:flex-row flex-col justify-center items-center gap-10 my-16'>
         {/* short Description */}
         <div className="description-left my-16 p-5 px-1 w-full max-w-xl text-xs md:text-base flex flex-col gap-3 text-white">
-          <p className='inline-flex animate-text-gradient bg-gradient-to-r from-[#b2a8fd] via-[#8678f9] to-[#c7d2fe] bg-[200%_auto] bg-clip-text text-xl text-transparent font-bold'><TypingAnimation/></p>
+          <div className='inline-flex animate-text-gradient bg-gradient-to-r from-[#b2a8fd] via-[#8678f9] to-[#c7d2fe] bg-[200%_auto] bg-clip-text text-xl text-transparent font-bold'><TypingAnimation/></div>
           <p>Hi, I'm Sandeep Kohli</p>
           <p>A passionate Full Stack Developer building modern and responsive web applications And cross-platform mobile App.</p>
         </div>

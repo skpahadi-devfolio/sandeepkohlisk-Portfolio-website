@@ -20,9 +20,11 @@ export const contactMessage = async (req, res) => {
             replyTo: email,
             subject: `Portfolio Contact: ${name}`,
             text: `Hello Sandeep Kohli,
-            You Have Receive a New Message from your Portfolio,
-            Someone Want's to connect with you,
-            Name: ${name} Email: ${email} Message:${message}`,
+You Have Receive a New Message from your Portfolio,
+Someone Want's to connect with you,
+Name: ${name} 
+Email: ${email} 
+Message:${message}`,
         })
         return res.status(200).json({
             success: true,
