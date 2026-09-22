@@ -1,4 +1,3 @@
-import React from 'react'
 import MyCv from "../assets/SANDEEP KOHLI TECH CV.pdf"
 import Fadeup from '../Animations/Fadeup'
 

@@ -1,4 +1,3 @@
-import React from 'react'
 import { useState } from 'react'
 import { toast, ToastContainer } from 'react-toastify'
 import { contactMessage } from '../services/contactServices.js'
@@ -19,7 +18,7 @@ const Contact = () => {
   const handleClick = async(e) => {
     e.preventDefault();
 
-    if(!name || !email || !message){
+    if(!form.name || !form.email || !form.message){
       toast.error("All Fields are Required");
       return;
     }

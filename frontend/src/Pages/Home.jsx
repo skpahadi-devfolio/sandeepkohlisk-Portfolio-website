@@ -1,4 +1,3 @@
-import React from 'react'
 import TypingAnimation from '../Components/TypingAnimation'
 import DeveloperImg from '../assets/Developer.jpg'
 import About from './About'

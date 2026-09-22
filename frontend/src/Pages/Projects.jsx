@@ -64,8 +64,8 @@ const Projects = () => {
       <p className='md:text-left px-5 animate-text-gradient bg-gradient-to-r from-[#b2a8fd] via-[#8678f9] to-[#c7d2fe] bg-[200%_auto] bg-clip-text text-transparent font-bold text-4xl p-5 md:mx-36'>Projects</p>
       {projects.map((item, index) => {
         return (
-          <ScaleIn>
-            <div key={index} className='my-12 p-5 w-full max-w-5xl mx-auto flex flex-col gap-3 text-white bg-gradient-to-br from-[#040005] via-[#0a0011] to-[#11041b] text-xs md:text-base'>
+          <ScaleIn key={index}>
+            <div className='my-12 p-5 w-full max-w-5xl mx-auto flex flex-col gap-3 text-white bg-gradient-to-br from-[#040005] via-[#0a0011] to-[#11041b] text-xs md:text-base'>
               <p>{item.title}</p>
               <p>{item.desc}</p>
               <div className='flex gap-4 flex-wrap'>
